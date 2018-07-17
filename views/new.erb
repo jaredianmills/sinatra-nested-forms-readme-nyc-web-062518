@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="/student" method="post">
+      <p>Student Name: <input type="text" name="student[name]"></p>
+      <p>Student Grade: <input type="text" name="student[grade]"></p>
+      <p>Course Name: <input type="text" name="student[courses][][name]"></p>
+      <p>Course Topic: <input type="text" name="student[courses][][topic]"></p>
+      <p>Course Name: <input type="text" name="student[courses][][name]"></p>
+      <p>Course Topic: <input type="text" name="student[courses][][topic]"></p>
+      <input type="submit">
+    </form>
+  </body>
+</html>
